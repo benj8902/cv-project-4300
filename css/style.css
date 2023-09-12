@@ -1,0 +1,187 @@
+/* body work */
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAF1E4;
+}
+/* nav section work */
+nav {
+    background-color : #FAF1E4;
+    padding: 10px;
+    border-bottom: solid medium #9EB384;
+    display: flex;
+    justify-content: right;
+    font-size: 1.5vh;
+}
+nav a {
+    color: #9EB384;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgba(91, 174, 69, 0.255);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+
+/* footer section work */
+footer {
+    background-color : #FAF1E4;
+    padding: 10px;
+    border-top: solid medium #9EB384;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vh;
+}
+footer a {
+    color: #9EB384;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: rgba(91, 174, 69, 0.255);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+
+/* splash section work */
+.splash {
+    position: relative;
+    background-color : #c2daa8;
+    padding: 500px 0 0 0;
+    background-image: url("../images/treelineFinal.jpg");
+    background-size: contain;
+    background-blend-mode: multiply;
+}
+.splash h1 {
+    position: relative;
+    top: -175px;
+    justify-content: center;
+    font-size: 5vh;
+    font-family: "Coming Soon", sans-serif;
+    color: white;
+}
+.splash h2 {
+    margin: 0px;
+    position: relative;
+    top: -200px;
+    justify-content: center;
+    font-size: 2vh;
+    font-family: "Coming Soon", sans-serif;
+    color: white;
+}
+.splash img {
+    object-fit: contain;
+    height: 600px;
+    padding: none;
+    background-color: transparent;
+}
+
+
+
+/* main section work */
+.main {
+    background-color:#fff9f2;
+    font-family: "Coming Soon", sans-serif;
+    font-size: 1.5vh;
+    padding-top: 20px;
+}
+.main a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #435334;
+}
+.main a:hover {
+    background-color: rgba(91, 174, 69, 0.255);
+    font-family: "Coming Soon", sans-serif;
+    color: white;
+}
+.headshot {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.main hr {
+    border-top: dotted 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color:#9EB384;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.main h2 {
+    color: black;
+    font-size: 3vh;
+}
+.main h1 {
+    font-size: 5vh;
+    color: #9EB384;
+    font-family: "Coming Soon", sans-serif;
+}
+
+.three-col {
+    margin: 0 auto;
+    max-width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    font-family: sans-serif;
+    padding-bottom: 200px;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: grey 0 0 10px;
+    border-collapse: collapse;
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.content {
+    line-height: 1.5;
+    font-size: 1.0em;
+    padding: 15px;
+    background: #ffffff;
+}
+.one-col {
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textarea {
+    height: 200px;
+    width: 100%;
+}
+.button {
+    background-color: #9EB384; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
